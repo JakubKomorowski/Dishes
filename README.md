@@ -22,8 +22,10 @@ Browser will automatically open on localhost:3000
 
 ## Live
 
+https://dishes-form.netlify.app/
+
 If you have any problems to run the project, feel free to contact me by email:
 
-### Email:
+### Email
 
 jakub.komorowski01@gmail.com

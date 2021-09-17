@@ -9,6 +9,7 @@ import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import InputLabel from "@material-ui/core/InputLabel";
+import TimerIcon from "@material-ui/icons/Timer";
 
 export const renderFromHelper = ({ touched, error }) => {
   if (!(touched && error)) {
@@ -82,6 +83,7 @@ export const renderTimePick = ({
       InputProps={{
         readOnly: true,
       }}
+      keyboardIcon={<TimerIcon />}
     />
   </MuiPickersUtilsProvider>
 );
